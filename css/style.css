@@ -1,5 +1,8 @@
 body {
 	background: url("../img/bg.jpg");
+	/*background: url("../img/bg-color.png"); 	achtergrond in kleur*/
+	background-size: 100%;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	font-family: Helvetica, Arial, sans-serif;
 }
@@ -81,8 +84,20 @@ table th {
 }
 
 /****************** NEWSLETTER *********************/
+.social {
+	margin-top: 400px;
+	padding-left: 20px;
+}
+.social i {
+	color: #61686b;
+	margin-left: 30%;
+}
+.social img {
+	margin-left: 30%;
+}
+/****************** NEWSLETTER *********************/
 .newsletter {
-	margin-top: 350px;
+	margin-top: 500px;
 }
 .newsletter form {
 	background-color: rgba(255,255,255,0.7);
@@ -96,10 +111,28 @@ table th {
 
 /****************** BIO *********************/
 .bio {
-	margin-top: 400px;
+	margin-top: 450px;
+}
+.bio-content{
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 5px;
+	font-size: 16px;
+	margin-left: 25%;
+	padding: 20px;
+	width: 50%;
 }
 /****************** FOOTER *********************/
 
 footer {
 	background: #111;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+footer p,
+footer a {
+	color: white;
+	text-align: center;
+}
+footer a:hover {
+	color: white;
 }
