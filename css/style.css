@@ -1,6 +1,5 @@
 body {
-	background: url("../img/bg.jpg");
-	/*background: url("../img/bg-color.png"); 	achtergrond in kleur*/
+	background: url("../img/background.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -11,8 +10,11 @@ body {
 	border: none;
 }
 .content {
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255,0.6);
 	padding: 30px;
+}
+.col-md-12 {
+	background-color: none;
 }
 h1 {
 	color: #575756;
@@ -27,7 +29,44 @@ p {
 hr {
 	border: 0.25px dotted #bbb;
 }
+/****************** SOCIAL *********************/
+.social {
+	padding-left: 25px;
+}
+.social i {
+	color: #61686b;
+	margin-left: 15px;
+	vertical-align: middle;
+}
+.social a:hover {
+	text-decoration: none;
+}
+.social img {
+	margin-left: 15px;
+}
+/****************** NEWSLETTER *********************/
+.newsletter {
+	border: 1px solid #575756;
+	border-radius: 5px;
+	color: #575756;
+	font-weight: bold;
+	margin-left: 40%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-transform: uppercase;
+}
+.newsletter:hover {
+	background: rgba(255,255,255,0.5);
+	border-color: #444;
+	color: #444;
+	text-decoration: none;
+}
 /****************** VIDEO *********************/
+.youtube {
+	margin-top: 100px;
+}
 .youtube iframe {
 	margin-left: 25%;
 }
@@ -43,7 +82,22 @@ hr {
 	padding: 20px;
 	width: 28%;
 }
+/****************** NEW ALBUM *********************/
+.newAlbumText {
+	color: #575756;
+	font-size: 90px;
+	padding-top: 50px;
+	text-align: center;
+	padding-right: 9%;
+}
+.newAlbum img {
+	margin-left: 18%;
+	width: 310px;
+}
 /****************** TOUR *********************/
+.tourDates {
+	margin-top: 550px;
+}
 .tourScript {
 	background: rgba(255,255,255,0.7); 
 	border-radius: 5px;
@@ -83,35 +137,10 @@ table th {
 	text-align: left;
 }
 
-/****************** NEWSLETTER *********************/
-.social {
-	margin-top: 400px;
-	padding-left: 20px;
-}
-.social i {
-	color: #61686b;
-	margin-left: 30%;
-}
-.social img {
-	margin-left: 30%;
-}
-/****************** NEWSLETTER *********************/
-.newsletter {
-	margin-top: 500px;
-}
-.newsletter form {
-	background-color: rgba(255,255,255,0.7);
-	border-radius: 5px;
-	padding: 20px;
-	padding-bottom: 50px;
-}
-.newsletter input[type="submit"]{
-	float: right;
-}
 
 /****************** BIO *********************/
 .bio {
-	margin-top: 450px;
+	margin-top: 700px;
 }
 .bio-content{
 	background-color: rgba(255,255,255,0.7);
