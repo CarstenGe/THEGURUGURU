@@ -54,7 +54,7 @@ p {
 }
 @media screen and (max-width: 1200px){
 	.social i, .social img {
-		margin-left: 0px;
+		margin-left: 5px;
 	}
 }
 @media screen and (max-width: 985px){
