@@ -1,5 +1,6 @@
 body {
 	background: url("../img/bg.png");
+	background-color: #15212d;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -12,7 +13,7 @@ body {
 .content {
 	background: rgba(255,255,255,1);
 	padding: 30px;
-	margin-top: 600px;
+	margin-top: 900px;
 	margin-left: 2.5%;
 	width: 95%;
 }
@@ -37,7 +38,7 @@ p {
 }
 /****************** SOCIAL *********************/
 .social {
-	padding-left: 38px;
+	padding-left: 25px;
 }
 .social i {
 	color: white;
@@ -51,18 +52,42 @@ p {
 	margin-left: 15px;
 	width: 30px;
 }
+@media screen and (max-width: 1200px){
+	.social i, .social img {
+		margin-left: 0px;
+	}
+}
+@media screen and (max-width: 985px){
+	.social {
+		padding-left: 35%;
+	}
+}
+@media screen and (max-width: 500px){
+	.social {
+		padding-left: 25%;
+	}
+}
+}
+@media screen and (max-width: 325px){
+	.social {
+		padding-left: 15%;
+	}
+}
 /****************** NEWSLETTER *********************/
 .newsletter {
 	border: 1px solid white;
 	border-radius: 5px;
 	color: white;
+	display: block;
 	font-weight: bold;
-	margin-left: 41%;
+	margin: 0 auto;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 25px;
 	padding-right: 25px;
+	text-align: center;
 	text-transform: uppercase;
+	width: 250px;
 }
 .newsletter:hover {
 	background: white;
@@ -81,22 +106,18 @@ p {
 	width: 100%;
 }
 /****************** VIDEO *********************/
-.youtube {
-	margin-top: 100px;
+.youtube{
+	margin-bottom: 300px;
 }
-.youtube iframe {
-	margin-left: 25%;
-}
-.youtube2 iframe{
+.youtube iframe{
 	margin-left: 10%;
 }
-.youtube2 p {
+.youtube p {
 	float: right;
 	font-size: 16px;
 	margin-right: 10%;
 	padding-left: 20px;
 	padding-right: 20px;
-	width: 25%;
 }
 /****************** TOUR *********************/
 .tourDates {
