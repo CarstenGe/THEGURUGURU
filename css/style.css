@@ -10,7 +10,7 @@ body {
 	body {
 		background: url("../img/bg-mobile.png");
 		background-color: #15212d;
-		background-size: 100%;
+		background-position: 100% 0px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 	}
@@ -36,7 +36,7 @@ body {
 }
 h1 {
 	color: black;
-	margin-top: 50px;
+	margin-top: 40px;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -141,6 +141,18 @@ p {
 	margin-right: 10%;
 	width: 87%;
 }
+@media screen and (max-width: 999px){
+	.youtube-video-1,
+	.youtube-video-2 {
+		height: 300px
+	}
+}
+@media screen and (max-width: 499px){
+	.youtube-video-1,
+	.youtube-video-2 {
+		height: 200px
+	}
+}
 @media screen and (max-width: 1200px){
 	.youtube iframe{
 		margin-left: 0%;
@@ -219,18 +231,34 @@ p {
 		width: 50%;
 	}
 }
-.tourDates {
-	min-height: 1600px;
+.tourDates  {
+	height: 1600px;
 }
 @media screen and (max-width: 700px){
 	.tourDates {
-		min-height: 600px;
+		height: 600px;
 	}
 }
 .tourScript {
 	background: rgba(255,255,255,0.7); 
 	border-radius: 5px;
 	padding: 20px;
+}
+@media screen and (max-width: 499px){
+	.tourScript {
+		padding: 0;
+		margin: 0;
+	}
+	.tourDates .col-md-offset-3 {
+		margin-left: 0;
+	}
+	.tourDates .col-md-6 {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.tourDates td {
+		font-size: 80%;
+	}
 }
 .table-wrapper {
 	-webkit-overflow-scrolling: touch;
