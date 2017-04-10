@@ -80,21 +80,37 @@ p {
 		margin-left: 5px;
 	}
 }
-@media screen and (max-width: 985px) and (min-width: 501px){
+@media screen and (max-width: 985px) and (min-width: 601px){
 	.social {
 		padding-left: 35%;
 	}
 }
+@media screen and (max-width: 600px){
+	.social {
+		padding-left: 29%;
+	}
+}
 @media screen and (max-width: 500px){
 	.social {
-		padding-left: 15%;
+		padding-left: 24%;
+	}
+}
+@media screen and (max-width: 400px){
+	.social {
+		padding-left: 18%;
+	}
+}
+@media screen and (max-width: 350px){
+	.social {
+		padding-left: 13%;
 	}
 }
 @media screen and (max-width: 325px){
 	.social {
-		padding-left: 15%;
+		padding-left: 10%;
 	}
 }
+
 /****************** NEWSLETTER *********************/
 .newsletter {
 	border: 1px solid white;
@@ -117,9 +133,19 @@ p {
 	text-decoration: none;
 }
 /****************** NEW ALBUM *********************/
+.newAlbum .col-md-12{
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 50px;
+}
+@media screen and (max-width: 600px) {
+	.newAlbum .col-md-12{
+		margin-bottom: -90px;
+		padding-bottom: 75px;
+	}
+}
 .newAlbum img {
     margin-left: 4%;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     width: 92%;
 }
 @media screen and (max-width: 700px){
@@ -153,18 +179,30 @@ p {
 		height: 200px
 	}
 }
+@media screen and (max-width: 350px){
+	.youtube-video-1,
+	.youtube-video-2 {
+		height: 140px
+	}
+}
 @media screen and (max-width: 1200px){
 	.youtube iframe{
 		margin-left: 0%;
 		width: 100%;
 	}
 }
+
 .youtube img {
 	width: 77%;
 	max-width: 300px;
 }
 .youtube-img-2 {
 	margin-left: 65px;
+}
+@media screen and (max-width: 1000px){
+	.youtube img {
+		display: none;
+	}
 }
 @media screen and (max-width: 700px){
 	.youtube img {
@@ -173,11 +211,24 @@ p {
 		width: 100%;
 	}
 }
+@media screen and (max-width: 699px){
+	.youtube img {
+		display: none;
+	}
+}
 @media screen and (max-width: 700px){
 	.youtube {
 		margin-bottom: 0px;
 	}
 }
+hr {
+	border-color: #ccc;
+}
+.col-md-12 hr {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 /****************** TOUR *********************/
 .bit-track-artist-header {
 	border-top:none !important;
@@ -237,6 +288,11 @@ p {
 @media screen and (max-width: 700px){
 	.tourDates {
 		height: 600px;
+	}
+}
+@media screen and (max-width: 500px){
+	.tourDates {
+		padding-top: 0;
 	}
 }
 .tourScript {
