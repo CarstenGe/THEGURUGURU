@@ -28,7 +28,7 @@ body {
 }
 @media screen and (max-width: 700px){
 	.content{
-		margin-top: 500px;
+		margin-top: 400px;
 	}
 }
 .col-md-12 {
@@ -369,4 +369,13 @@ footer a {
 }
 footer a:hover {
 	color: white;
+}
+.contact-icons{
+	margin: -10px auto;
+	width: 110px;
+}
+.contact-icon {
+	float: left;
+	text-align: center;
+	width: 33%;
 }
