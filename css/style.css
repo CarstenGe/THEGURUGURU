@@ -353,8 +353,26 @@ table th {
 	padding: 0 0.75em 0.75em 0.75em;
 	text-align: left;
 }
-
-
+.contact p {
+	text-align: center;
+	text-transform: uppercase;
+}
+.contact-icons{
+	margin: 0px auto;
+	width: 110px;
+}
+.contact-icon {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+	width: 33%;
+}
+.contact-icon i{
+	color: #666;
+}
+.contact-icon i:hover{
+	color: #000;
+}
 /****************** FOOTER *********************/
 
 footer {
@@ -369,13 +387,4 @@ footer a {
 }
 footer a:hover {
 	color: white;
-}
-.contact-icons{
-	margin: -10px auto;
-	width: 110px;
-}
-.contact-icon {
-	float: left;
-	text-align: center;
-	width: 33%;
 }
